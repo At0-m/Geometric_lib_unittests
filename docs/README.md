@@ -67,4 +67,15 @@ print(sq_perimeter(5))            # 20
 print(round(cir_area(3), 2))      # 28.27
 print(round(cir_perimeter(3), 2)) # 18.85
 ```
+## Tests
 
+This project includes a small unit test suite based on Python’s built-in unittest framework.
+All tests live in the tests/ directory (for example, tests/test_shape.py) and cover typical and basic boundary cases for every area/perimeter function.
+
+From the project root, run:
+
+```bash
+python3 -m unittest discover -s tests -p "test_*.py" -v
+```
+
+All tests are expected to pass with status OK.
